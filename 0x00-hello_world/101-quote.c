@@ -1,11 +1,8 @@
 #include <unistd.h>
 /**
- *
- * main - Main function
- *
+ * main - A c program
  * Return: Always 1
  */
-
 int main(void)
 {
 	write(2, 
