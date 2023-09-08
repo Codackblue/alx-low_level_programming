@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * maine - Entry point that prints the size of various types of variables
+ * main - Entry point that prints the size of various types of variables
  *
  * Return: 0 (success)
  */
