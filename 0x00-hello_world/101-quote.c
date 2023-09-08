@@ -1,9 +1,8 @@
 #include <unistd.h>
 /**
  * main - Main function
- * Return: Always 1 (success)
+ * Return: Always 1
  */
-
 int main(void)
 {
 	write(2, 
