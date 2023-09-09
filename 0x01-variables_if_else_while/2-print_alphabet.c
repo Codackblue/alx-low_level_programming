@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+*main - putchar printing
+*
+*Return: Always 0 (success)
+ */
+int main(void)
+{
+	int i;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+
+	for (i = 0; 1 < 26; i++)
+	{
+	putchar(alp[1]);
+	}
+	putchar('\n');
+return (0);
+}
