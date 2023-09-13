@@ -16,7 +16,7 @@ void print_to_98(int n)
 		{
 			if (x != 98)
 				printf("%d", x);
-			if (x == 98)
+			else if (x == 98)
 				printf("%d", x);
 			printf(",");
 			 printf(" ");
