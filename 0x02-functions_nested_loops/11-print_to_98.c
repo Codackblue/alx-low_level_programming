@@ -1,38 +1,29 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * print_to_98 - prints all natural
- * followed by a new line
- * @n: print from this number
+ * print_to_98 - ptints to above
+ * @n: The number to start from
+ * Return: void.
  */
 void print_to_98(int n)
 {
-	int x, y;
-
-	if (n <= 98)
-	{
-		for (x = n; x <= 98; x++)
-		{
-			if (x != 98)
-				printf("%d", x);
-			else if (x == 98)
-				printf("%d", x);
-			printf(",");
-			 printf(" ");
-		}
-	}
-	else if (n >= 98)
-	{
-		for (y = n; y >= 98; y--)
-		{
-			if (y != 98)
-				printf("%d", y);
-			if (y == 98)
-				printf("%d\n", y);
-			printf(",");
-			 printf(" ");
-		}
-	}
+if (n < 99)
+while (n < 99)
+{
+printf("%d", n);
+if (n != 98)
+printf(", ");
+n++;
 }
-
+else
+{
+while (n != 97)
+{
+printf("%d", n);
+if (n != 98)
+printf(", ");
+n--;
+}
+}
+printf("\n");
+}
