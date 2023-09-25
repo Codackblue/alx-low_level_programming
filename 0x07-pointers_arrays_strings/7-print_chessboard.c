@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_chess for me
- * @a: two dimers
+ * print_chessboard - printschessboard codes
+ * @a: two dimension array for me and more
  */
 
 void print_chessboard(char (*a)[8])
