@@ -3,7 +3,7 @@
 int actual_sqrt_recursion(int n, int i);
 
 /**
- * _sqrt_recursion - returns the natural recursion 
+ * _sqrt_recursion - returns the natural recursion
  * @n: number for easy readability
  * Return: 0 success
  */
