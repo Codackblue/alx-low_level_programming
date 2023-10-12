@@ -1,11 +1,9 @@
 #ifndef CALC_H
 #define CALC_H
-
 /**
- * struct - for my cal for mec
- * @op: calculated
- * @f: my function
- * Return: 0 success
+ * struct op - tge cakc
+ * @op: created calc
+ * @f: calc assocuation
  */
 typedef struct op
 {
@@ -20,5 +18,4 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
-
-#endif /* CALC_H */
+#endif
