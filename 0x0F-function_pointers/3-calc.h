@@ -2,9 +2,10 @@
 #define CALC_H
 
 /**
- * struct - for my calc
+ * struct - for my cal for mec
  * @op: calculated
  * @f: my function
+ * Return: 0 success
  */
 typedef struct op
 {
